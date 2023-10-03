@@ -112,9 +112,16 @@ Clone the repository to desired directory on local computer.
 > `run the SQL statements in the schema_based_on_diagram.sql`
 
 ## 👥 Author <a name="authors"></a>
+
 - GitHub: [@wacoo](https://github.com/wacoo)
 - Twitter: [@wabaham9](https://twitter.com/wabaham9)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/wondmagegn-abriham-b867289a)
+
+👤 **Faisal Mumtaz**
+
+- GitHub: [@faisalakb](https://github.com/faisalakb)
+- Twitter: [@faisalakb786](https://twitter.com/Faisalakb786)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/faisal-mumtaz-514a221a6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
