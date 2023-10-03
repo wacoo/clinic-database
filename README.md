@@ -3,9 +3,8 @@
 
 This repository includes files with plain SQL that can be used to recreate a database:
 
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+- Use [schema.sql](./schema.sql) to create all tables and add tables.
+**Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 <a name="readme-top"></a>
 
@@ -58,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 
 
-**Vet Clinic Database** is a PostgreSQL database designed to store information about animals in a veterinary clinic. It includes essential details such as animal names, dates of birth, weights, species, and records escape attempts. This database serves as a comprehensive repository for managing and tracking various aspects of animals' health and behavior within a veterinary clinic setting. With its structured data storage capabilities, the Vet Clinic Database enables efficient management and retrieval of animal information for effective veterinary care and administration.
+**Clinic Database** is a PostgreSQL database designed to store information about patients. It includes essential details such as medial histories and treatments. This database serves as a comprehensive repository for managing and tracking various aspects of patients' health within clinic. With its structured data storage capabilities, the Clinic Database enables efficient management and retrieval of animal information for effective patient care and administration.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,12 +80,11 @@ After you're finished please remove all the comments and instructions!
 
 The database store the following data:
 
-- **Tables: Animal name, DOB, weight, Species, Vets, Specializations, Visits**
-- **Escape attepts records**
-- **Health records**
-- **Visit records**
-- **Vet records**
-- **Speciality records**
+- **Patients**
+- **Medical histiries**
+- **Treatments**
+- **Invoices**
+- **Invoice items**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,10 +106,10 @@ Example command:
 
 ### Setup
 Clone the repository to desired directory on local computer.
-> `git clone https://github.com/wacoo/vet-clinic-database`
+> `git clone https://github.com/wacoo/clinic-database`
 
-> `cd vet-clinic-database`
-> `run the SQL statements in the schema.sql, data.sql and queries.sql`
+> `cd clinic-database`
+> `run the SQL statements in the schema_based_on_diagram.sql`
 
 ## 👥 Author <a name="authors"></a>
 - GitHub: [@wacoo](https://github.com/wacoo)
