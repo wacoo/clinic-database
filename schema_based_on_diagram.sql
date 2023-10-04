@@ -14,9 +14,9 @@ CREATE TABLE medical_histories (
 
 CREATE TABLE invoices (
     id SERIAL PRIMARY KEY,
-    total_amount VARCHAR(100),
+    total_amount DECIMAL(10, 2),
     generated_at TIMESTAMP,
-    paid_at TIMESTAMP,
+    payed_at TIMESTAMP,
     medical_history_id INT REFERENCES medical_histories(id)
 );
 
@@ -28,9 +28,9 @@ CREATE TABLE treatments (
 
 CREATE TABLE invoice_items (
     id SERIAL PRIMARY KEY,
-    unit_price DECIMAL,
+    unit_price DECIMAL(10, 2),
     quantity INT,
-    total_price DECIMAL,
+    total_price DECIMAL(10, 2),
     invoice_id INT REFERENCES invoices(id),
     treatment_id INT REFERENCES treatments(id)
 );
